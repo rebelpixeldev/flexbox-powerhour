@@ -1,0 +1,19 @@
+.flex-alignment{
+  padding:15px; display:flex; flex-wrap: wrap; height:calc(100% - 30px);
+  &> div{
+    background:#eee; flex:1 0 calc(33% - 60px); margin:15px; text-align:center;
+    display:flex; font-weight:bold; padding:15px;
+  }
+
+  .tl{ justify-content:flex-start; align-items:flex-start; text-align:left;  }
+  .tc{ justify-content:center; align-items:flex-start; text-align:center; }
+  .tr{ justify-content:flex-end; align-items:flex-start; text-align:right;  }
+
+  .cl{ justify-content:flex-start; align-items:center; text-align:left;  }
+  .cc{ justify-content:center; align-items:center; text-align:center;  }
+  .cr{ justify-content:flex-end; align-items:center; text-align:right; }
+
+  .bl{ justify-content:flex-start; align-items:flex-end; text-align:left;  }
+  .bc{ justify-content:center; align-items:flex-end; text-align:center; }
+  .br{ justify-content:flex-end; align-items:flex-end; text-align:right; }
+}

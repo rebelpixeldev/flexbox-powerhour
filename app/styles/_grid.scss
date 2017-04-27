@@ -1,0 +1,25 @@
+.grid {
+  display: flex;
+
+  .grid-inner{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    &:after {
+      content: "";
+      width:640px;
+    }
+  }
+  .card {
+    width: 300px;
+    margin: 10px;
+    background:#fff;
+    p{padding:10px; display:block;}
+    &:last-child{align-self:flex-start;}
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+
