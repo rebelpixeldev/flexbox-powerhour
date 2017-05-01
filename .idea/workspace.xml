@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048e0d30-83cc-471a-bdef-b1cef2151b11" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/flex-direction-usage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/flex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/grow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/sticky-footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/_flex-prop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/_grow-shrink.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/_grow.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/_main.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/flexbox-power-hour.iml" afterPath="$PROJECT_DIR$/.idea/flexbox-power-hour.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/alignment.html" afterPath="$PROJECT_DIR$/app/alignment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/feature-totes.html" afterPath="$PROJECT_DIR$/app/feature-totes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/flex-direction.html" afterPath="$PROJECT_DIR$/app/flex-direction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/grid.html" afterPath="$PROJECT_DIR$/app/grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/navigation.html" afterPath="$PROJECT_DIR$/app/navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_feature-totes.scss" afterPath="$PROJECT_DIR$/app/styles/_feature-totes.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_flex-alignment.scss" afterPath="$PROJECT_DIR$/app/styles/_flex-alignment.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_flex-direction.scss" afterPath="$PROJECT_DIR$/app/styles/_flex-direction.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_navigation.scss" afterPath="$PROJECT_DIR$/app/styles/_navigation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app.scss" afterPath="$PROJECT_DIR$/app/styles/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,22 +70,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="35" column="158" lean-forward="false" selection-start-line="35" selection-start-column="158" selection-end-line="35" selection-end-column="158" />
+            <state relative-caret-position="450">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/navigation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -163,7 +144,6 @@
         <option value="$PROJECT_DIR$/app/justify-content.html" />
         <option value="$PROJECT_DIR$/app/styles/_grid.scss" />
         <option value="$PROJECT_DIR$/app/basic.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/grow-shrink.html" />
         <option value="$PROJECT_DIR$/app/styles/_grow-shrink.scss" />
         <option value="$PROJECT_DIR$/app/styles/_flex-grow.html" />
@@ -186,6 +166,7 @@
         <option value="$PROJECT_DIR$/app/alignment.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/app.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -376,12 +357,12 @@
       <workItem from="1493250969920" duration="13651000" />
       <workItem from="1493311844795" duration="11345000" />
       <workItem from="1493388728422" duration="844000" />
-      <workItem from="1493668188474" duration="784000" />
+      <workItem from="1493668188474" duration="991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26624000" />
+    <option name="totallyTimeSpent" value="26831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
@@ -561,21 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/_grow-shrink.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -726,9 +692,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="158" lean-forward="false" selection-start-line="35" selection-start-column="158" selection-end-line="35" selection-end-column="158" />
+        <state relative-caret-position="450">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
         </state>
       </provider>
     </entry>
