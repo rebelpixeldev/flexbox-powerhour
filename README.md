@@ -3,5 +3,5 @@
 To run the flexbox powerhour:
 
 ```
-npm install &amp;&amp; gulp serve
+npm install && gulp serve
 ```
