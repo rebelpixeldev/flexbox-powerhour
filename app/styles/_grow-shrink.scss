@@ -1,0 +1,22 @@
+.grow-shrink-container{
+  display:flex;font-size:32px; height:150px; margin-bottom:32px;
+  &.plain{
+
+  }
+
+  &.flex-one{
+    .item{flex:1}
+  }
+
+  &.flex-grow{
+    .item{flex:1 0 100px;}
+  }
+
+  .item{
+    background:#eee;
+    &:nth-child(even){
+      background:#ccc;
+    }
+  }
+
+}

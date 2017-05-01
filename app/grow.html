@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <link rel="stylesheet" href="/styles/app.css">
+  </head>
+  <body>
+
+  <div id="1" class="powerhour-page flex-grow gutter-top">
+    <h2>With no content, the two divs are as wide as you would expect</h2>
+    <main>
+      <aside class="col">
+        <h2></h2>
+      </aside>
+      <section class="col">
+        <h2></h2>
+      </section>
+    </main>
+
+    <ol>
+      <li>aside width: <span class="aside-width"></span></li>
+      <li>section width: <span class="section-width"></span> </li>
+    </ol>
+
+    <a href="#2" class="next-page">&darr;</a>
+  </div>
+
+  <div id="2" class="powerhour-page flex-grow">
+    <h2>Once content is added, the leftover space will be split as a ratio to the elements flex-grow property</h2>
+    <main>
+      <aside class="col">
+        <h2>CSS, Or:</h2>
+      </aside>
+      <section class="col">
+        <h2>Here is the content for the site</h2>
+      </section>
+    </main>
+
+    <ul>
+      <li>aside width: <span class="aside-width"></span></li>
+      <li>section width: <span class="section-width"></span> </li>
+      <li><hr></li>
+      <li>aside content width: <span class="aside-content-width"></span></li>
+      <li>section content width: <span class="section-content-width"></span></li>
+      <li>remaining space: <span class="remaining-space"></span></li>
+
+      <li><hr></li>
+      <li>Math to get section width</li>
+      <li>one flex grow unit = remaining space / total flex units ( <span class="flex-grow-unit"></span> )</li>
+      <li>Content width + ( flex-grow  * one flex grow unit )</li>
+      <li><span class="section-content-width"></span> + ( 2 * <span class="flex-grow-unit"></span> ) = <strong class="total-mathed"></strong></li>
+    </ul>
+
+    <a href="#3" class="next-page">&darr;</a>
+  </div>
+
+  <div id="3" class="powerhour-page flex-grow gutter-top">
+    <main>
+      <aside class="col">
+        <h2></h2>
+      </aside>
+      <section class="col">
+        <h2></h2>
+      </section>
+    </main>
+
+    <ul>
+      <li>aside width: <span class="aside-width"></span></li>
+      <li>section width: <span class="section-width"></span> </li>
+      <li><hr></li>
+      <li>aside content width: <span class="aside-content-width"></span></li>
+      <li>section content width: <span class="section-content-width"></span></li>
+      <li>remaining space: <span class="remaining-space"></span></li>
+
+      <li><hr></li>
+      <li>Math to get section width</li>
+      <li>one flex grow unit = remaining space / total flex units ( <span class="flex-grow-unit"></span> )</li>
+      <li>Content width + ( flex-grow  * one flex grow unit )</li>
+      <li><span class="section-content-width"></span> + ( 2 * <span class="flex-grow-unit"></span> ) = <strong class="total-mathed"></strong></li>
+    </ul>
+
+  </div>
+
+
+
+  <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+
+    <script>
+      getsize();
+
+      function getsize() {
+        var n = 0;
+//        for (var node of document.querySelectorAll('.col')) {
+//          document.querySelectorAll('span')[n].textContent = node.getBoundingClientRect().width+"px";
+//          n++;
+//        }
+
+        $('.powerhour-page').each(function(){
+          const $aside = $(this).find('aside');
+          const $section = $(this).find('section');
+
+          const asideContentWidth = $aside.find('h2')[0].getBoundingClientRect().width
+          const sectionContentWidth = $section.find('h2')[0].getBoundingClientRect().width;
+
+          const remainingWidth = 900 - (asideContentWidth + sectionContentWidth);
+
+          const flexGrowUnit =  remainingWidth / 3;
+
+          $(this).find('.aside-width').html($aside[0].getBoundingClientRect().width.toFixed(2))
+          $(this).find('.section-width').html($section[0].getBoundingClientRect().width.toFixed(2))
+
+          $(this).find('.aside-content-width').html(asideContentWidth.toFixed(2))
+          $(this).find('.section-content-width').html(sectionContentWidth.toFixed(2))
+
+          $(this).find('.remaining-space').html(remainingWidth.toFixed(2));
+          $(this).find('.flex-grow-unit').html(flexGrowUnit.toFixed(2));
+          $(this).find('.total-mathed').html((sectionContentWidth + ( flexGrowUnit * 2 )).toFixed(2));
+
+
+
+
+
+        })
+      }
+
+      window.onresize = function(event) {
+        getsize();
+      };
+
+
+
+    </script>
+
+  </body>
+</html>

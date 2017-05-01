@@ -1,0 +1,17 @@
+.flex-explanation{
+  padding-bottom:32px;
+  .flex-container{
+    display:flex; background:#ccc; padding:15px;
+    .item{
+      flex:1;
+      img{width:100%;}
+    }
+  }
+
+  .flex-container.three-doesnt-grow{
+    .item{flex:1 1 100px; }
+    .item:nth-child(3){
+      flex:2 1 300px;
+    }
+  }
+}

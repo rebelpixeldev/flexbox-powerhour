@@ -17,6 +17,10 @@
   }
 }
 
+.not-aligned{
+  .feature--content{flex:0;}
+}
+
 @media all and (max-width:768px){
   .features{
     .feature:last-child{display:none;}

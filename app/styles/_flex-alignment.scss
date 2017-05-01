@@ -1,5 +1,5 @@
 .flex-alignment{
-  padding:15px; display:flex; flex-wrap: wrap; height:calc(100% - 30px);
+  padding:15px; display:flex; flex-wrap: wrap; height:800px;
   &> div{
     background:#eee; flex:1 0 calc(33% - 60px); margin:15px; text-align:center;
     display:flex; font-weight:bold; padding:15px;
@@ -16,4 +16,30 @@
   .bl{ justify-content:flex-start; align-items:flex-end; text-align:left;  }
   .bc{ justify-content:center; align-items:flex-end; text-align:center; }
   .br{ justify-content:flex-end; align-items:flex-end; text-align:right; }
+}
+
+.flex-positioning{
+  .flex-container{
+    display:flex; background:#ccc; padding:15px;
+    .item{
+      width:200px;
+      img{width:100%;}
+    }
+  }
+  .flex-start{
+    justify-content:flex-start;
+  }
+  .flex-end{
+    justify-content:flex-end;
+  }
+  .center{
+    justify-content:center;
+  }
+  .space-around{
+    justify-content:space-around;
+  }
+
+  .space-between{
+    justify-content:space-between;
+  }
 }
